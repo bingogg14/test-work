@@ -1,0 +1,20 @@
+{
+  "name": "vendor_name/test",
+  "description": "test-task",
+  "minimum-stability": "stable",
+  "license": "proprietary",
+  "authors": [
+    {
+      "name": "PavelHarashchenko",
+      "email": "pavel.harashchenko@gmail.com"
+    }
+  ],
+  "autoload": {
+    "psr-4": {
+      "App\\": "app/"
+    },
+    "files": [
+      "app/Utils/helpers.php"
+    ]
+  }
+}
